@@ -1,0 +1,259 @@
+:selection{
+    background-color: #00b495;
+    color: white;
+}
+    /* Scrollbar style  */
+::-webkit-scrollbar {
+    width: 0.4rem;
+  }
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,128,77,0.6);
+	border-radius: 10px;
+    
+
+  } 
+
+  ::-webkit-scrollbar-thumb {
+    background: #00b495; 
+    border-radius: 10px;}
+#home{
+    background-image: url(../images/images01.jpg);
+    background-position: center;
+    background-size: cover;
+    
+    height: 80vh;
+
+}
+#home h1{
+
+    font-size: 6rem;
+}
+.custom-btn{
+
+    border: 1px solid #00b495;
+    padding: 15px 30px;
+    background-color: #00b495;
+    color: white;
+    transition: 0.5s all;
+}
+.custom-nav{
+
+    background-color: #00b495 !important;
+
+}
+.custom-btn:hover{
+    background-color: white;
+    color: #00b495;
+}
+#about-us{
+    background-color: #fffdf5;
+}
+#about-us{
+    font-size: 24px;
+    color: #16193a;
+}
+#about-us img{
+    transform: rotate(-20deg);
+}
+#products h2 , #follow h2{
+    color: #16193a;
+    font-size: 3rem;
+    
+}
+#products .custom-btn , #follow .custom-btn{
+    border: 1px solid black;
+    padding: 20px 30px;
+    background-color: transparent;
+    color: black;
+    transition: 0.5s all;
+
+}
+#products .custom-btn:hover , #follow .custom-btn:hover{
+    border: 1px solid #00b495;
+   
+   
+    color: #00b495;
+
+
+}
+figure{
+    cursor: pointer;
+}
+#s{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: 0.5s all;
+}
+.layer{
+
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 130%;
+   background-color: rgba(0, 0, 0, 0.3);
+   transition: 0.5s all;
+}
+figure:hover .layer{
+    right: 0%;
+
+
+  
+
+}
+figure:hover #s{
+    opacity: 1;
+}
+figure{
+    overflow: hidden;
+}
+figure img {
+    transition: 0.5s all;
+  
+}
+figure:hover img{
+    transform: scale(1.2);
+
+
+  
+
+}
+
+figure i{
+    top: 5%;
+    right: 5%;
+}
+.product h3  {
+    color: #16193a;
+}
+.product p{
+    color: #16193a;
+    font-size: 1.2rem;
+    font-weight: 700;
+
+}
+#info{
+    background-color: #00b495;
+    color: #16193a;
+}
+#info h2{
+    font-size: 3rem;
+    font-weight: 700;
+}
+#info .custom-btn{
+  
+    padding: 20px 50px;
+    background-color: #16193a;
+    color: white;
+    transition: 0.5s all;
+
+}
+#info .custom-btn:hover{
+ 
+    background-color: white;
+    color: #00b495;
+   
+
+}
+#earth{
+    transition: 0.5s all;
+}
+#earth:hover{
+    transform: rotate(45deg);
+
+}
+.lay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    transition: 0.5s all;
+    opacity: 0;
+    color: white;
+}
+.photo:hover .lay{
+
+    opacity: 1;
+}
+.photo{
+    cursor: pointer;
+}
+.footer{
+
+    background-color: #00b495;
+    
+}
+.footer .layer{
+    background-color: rgba(0, 120, 255, 0.6);
+}
+.footer p{
+    line-height: 2rem;
+}
+.footer .underline::after{
+      content: '';
+    position: absolute;
+     height: 3px;
+    width: 15%;
+    background-color: #00b495; 
+    left: 0;
+    transform: translateX(0%);
+
+    
+    bottom: -30%;
+   
+
+   
+
+}
+.footer .icon{
+    font-size: 1.4rem;
+    width: 3rem;
+    height: 3rem; 
+    border-radius: 50%;
+    border: #00b495 3px solid;
+    transition: 1s all ;
+   
+
+
+}
+
+
+
+
+.footer button{
+
+    transition: 1s all ;
+}
+.footer button:hover{
+
+    box-shadow: #f1f1f1 ;
+}
+.underline {
+
+    position: relative;
+
+    
+   
+}
+.underline::after{
+
+    content: '';
+    position: absolute;
+     height: 5px;
+    width: 5%;
+    background-color: #00b495; 
+
+    
+    bottom: -50%;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+    
+/* end of footer section */
